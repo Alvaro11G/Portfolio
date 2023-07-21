@@ -14,5 +14,28 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: #C0C0C0;
+}
+
+.index {
+    background-color: #116466; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, #116466);
+    height: 545px;
+    color: #C0C0C0;
+}
+
+.about-me {
+    background-color: black;
+    background-image: linear-gradient(black, #116466);
+    height: 545px;
+    color: #C5C6C7;
+    display: flex;
+}
+
+.footer-links {
+    background-color: #116466;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
